@@ -1,5 +1,8 @@
 # bots-video-maker
 
+Aplicação para selecionar textos sobre determinados temas e com isso criar um vídeo alternando com textos e imagens realizando o upload da mesmo para o youtube
+
+
 Passos
 
 Orquestrador:
