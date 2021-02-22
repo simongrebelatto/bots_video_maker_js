@@ -9,6 +9,7 @@ async function start() {
     content.searchTerm = askAndReturnSearchTerm();
     content.prefix = askAndReturnPrefix();
 
+    // Iniciando robô de texto
     await robots.text(content);
 
     function askAndReturnSearchTerm() {
