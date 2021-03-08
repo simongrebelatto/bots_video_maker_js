@@ -28,3 +28,7 @@ Orquestrador:
     -Após isso só nos resta pegar o conteúdo sanitizado e quebrá-lo em sentenças, utlizando o sbd para isso. Quebramos em sentenças e jogamos em um array dentro de content, fazendo por fim vários objetos dentro da propriedade com um text, keywords e images. O qual cada sentense gera um novo objeto dentro da propriedade sentences.
 
     - Para iniciarmos no index.js esse robô, usamos a async e await para aguardar o término do processamento dele para prosseguir com as funções.
+
+    -Criamos uma conta no IBM Cloud e colocamos as credential do Natural Language Understanding, para funcionar, cadastramos a APIKeyWaton, uma classe V1 e uma instância nlu. Após isso geramos uma function para ele buscar em cada sentence retornada pelo Algorithmia as palavras chaves.
+
+    - fetchWatsonAndReturnKeyWords -> usaremos essa func para preencher a propriedades keywords de todos nossas sentenças
